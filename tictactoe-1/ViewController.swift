@@ -7,6 +7,9 @@
 
 import UIKit
 
+var player1Name = "Player 1"
+var player2Name = "Player 2"
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
