@@ -21,7 +21,8 @@ class GameViewController: UIViewController {
 
     @IBAction func action(_ sender: AnyObject)
     {
-        if(activePlayer == 1){
+        label.text = player1Name + "'s turn"
+        if(activePlayer == 2){
             label.text = player1Name + "'s turn"
         } else {
             label.text = player2Name + "'s turn"
